@@ -81,7 +81,7 @@ def cmap(value):
     if isinstance(value, str):
         return flat_colors[value]
     if isinstance(value, tuple):
-
+         return value
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
